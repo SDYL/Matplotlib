@@ -10,7 +10,7 @@ b = np.random.rand(100)
 
 # colormap:RdYlBu
 plt.scatter(a, b, s=np.power(10*a+20*b, 2),
-            c = np.random.rand(100),
+            c=np.random.rand(100),
             cmap=mpl.cm.RdYlBu,
             marker="o")
 
